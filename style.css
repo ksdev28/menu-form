@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(18, 45, 56);
+}
+
+.menu-item {
+  justify-content: left;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+.navbar ul {
+  flex-grow: 1;
+  justify-content: flex-start;
+  display: flex;
+  list-style: none;
+  margin-left: 80px;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  transition: 0.5s ease;
+}
+
+.nav-link:hover {
+  color: #00ffff;
+  cursor: pointer;
+}
+
+#email {
+  border-style: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+#password {
+  border-style: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+#submit {
+  width: 60px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+button {
+  border-style: none;
+  background-color: #00c030;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+button a:hover {
+  color: #0d2b17;
+  cursor: pointer;
+}
